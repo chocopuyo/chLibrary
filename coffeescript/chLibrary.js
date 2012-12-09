@@ -5,7 +5,7 @@ ChLib = (function() {
 
   function ChLib() {}
 
-  ChLib.prototype.ch_get_params = function() {
+  ChLib.ch_get_params = function() {
     var hash, hashes, i, vars, _i, _ref;
     vars = [];
     hash = [];

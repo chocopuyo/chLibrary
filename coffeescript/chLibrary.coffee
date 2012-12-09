@@ -1,7 +1,7 @@
 class ChLib
   constructor:->
   #urlのパラメーターを受け取りたい時に使う。返り値はhash。
-  ch_get_params:->
+  @ch_get_params:->
     vars = []
     hash = []
     hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&')
